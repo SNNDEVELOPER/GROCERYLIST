@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GROCERY LIST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+<body>
+<section>
+    <h1></h1>
+
+    <div id="output"></div>
+
+    <form id="form">
+        <div class="itemContainer">
+            <div class="item">
+                <label for="item">Item</label>
+                <input type="text" name="item" id="item">
+            </div>
+            <div class="qty">
+                <label for="qty" name="qty">Qty</label>
+                <input type="number" name="qty" id="qty">
+            </div>
+        </div>
+        <div class="container">
+            <button type="button" id="add">ADD</button>
+            <button type="button" id="delete">DELETE</button>
+            <button type="button" id="send">GET</button>
+            <button type="button" id="emptyList">RESET</button>
+        </div>
+    </form>
+    <div id="myList"></div>
+</section>
+    <script src="js/grocerylist.js"></script>
+</body>
+</html>
